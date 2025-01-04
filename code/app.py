@@ -89,7 +89,7 @@ st.markdown(
 )
 
 
-st.image(r"C:\Users\Thrishaa J\Downloads\logo-1.png", use_container_width=True)
+st.image(r"images/logo-1.png", use_container_width=True)
 
 # Input Sections
 skin_type = st.selectbox("Select your skin type", ['combination', 'dry', 'normal', 'oily', 'sensitive'])
