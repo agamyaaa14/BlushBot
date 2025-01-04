@@ -6,11 +6,11 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 
 # Load preprocessed data
-with open('data.pkl', 'rb') as file:
+with open('code/data.pkl', 'rb') as file:
     data = pickle.load(file)
 
 # Load the concern_tfidf and tfidf_concern
-with open('concern_tfidf.pkl', 'rb') as file:
+with open('code/concern_tfidf.pkl', 'rb') as file:
     tfidf_data = pickle.load(file)
     concern_tfidf = tfidf_data['concern_tfidf']  # Precomputed TF-IDF matrix
     tfidf_concern = tfidf_data['tfidf_concern']  # TfidfVectorizer object
