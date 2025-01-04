@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 
 # Load preprocessed data
-with open('code/data_df.pkl', 'rb') as file:
+with open('code/data.pkl', 'rb') as file:
     data = pickle.load(file)
 
 # Load the concern_tfidf and tfidf_concern
