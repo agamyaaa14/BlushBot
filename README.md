@@ -39,10 +39,12 @@ Tired of browsing endless skincare products? 🤔 Worry no more! **BlushBot** is
 ## System Architecture 🧩  
 
 The architecture consists of the following key modules:  
-1. **User Input**: Collects user preferences through dropdowns, sliders, and buttons.  
-2. **Data Preprocessing**: Filters and processes product data using custom logic.  
-3. **Recommendation Engine**: Suggests the best products based on user input using content-based filtering.  
-4. **Streamlit Frontend**: Displays the recommendations and interactive elements in a clean UI.
+1. **User Input**: Collects user preferences through dropdowns, sliders, and buttons.
+2. **Data Collection**: Web Scraping from Myntra using Octoparse. 
+3. **Data Preprocessing**: Filters and processes product data using custom logic.  
+4. **Recommendation Engine**: Suggests the best products based on user input using content-based filtering.  
+5. **Deployment**: Displays the recommendations and interactive elements in Streamlit Cloud.
+6. **Output**: Top 5 Recommendations are displayed as brand, name, price and overall product rating.
 
 ![BlushBot System Architecture](images/system-architecture.png)
 
@@ -110,4 +112,4 @@ The architecture consists of the following key modules:
 - Incorporate a machine learning model for advanced suggestions.
 - Expand the database to include more skincare brands and products.
 - Incorporate direct links to buy the products with images.
-- Develop an app with user friendly imterface to obtain accurate recommendations.
+- Develop an app with user friendly interface to obtain accurate recommendations.
